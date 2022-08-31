@@ -17,7 +17,9 @@ h2 {
 
 .half-div {
     width: 50%;
-    padding: 50px;
+    margin: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .flex-div {
@@ -64,4 +66,20 @@ h2 {
     margin-right: 50px;
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack-id {
+    border-left: 8px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web-id {
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
