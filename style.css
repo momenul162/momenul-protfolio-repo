@@ -16,11 +16,14 @@ h1 {
     padding: 50px;
 }
 
-.section-one {
+section {
     display: flex;
+    padding-bottom: 150px;
+}
+
+.section-one {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-
 }
 
 .half-div img {
@@ -35,4 +38,10 @@ h1 {
     font-weight: 700;
     border-radius: 5px;
 
+}
+
+.section-two {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
